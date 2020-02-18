@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe|Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.card-one{
+    height: 85vh;
+    background-image: url(../img/ilustracion1.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-bottom: 7%;
+}
+.img{
+     width: 45vw;
+    position: absolute;
+    height: 75%;
+    left: 50%;
+
+}
+.card-header{
+    display: flex;
+}
+.card-header img{
+    padding: 0.7%;
+    height: 35px;
+    position: fixed;
+}
+.card-header h1{
+    padding-top: 0.7%;
+    padding-left: 5%;
+}
+.card-header span{
+    display: block;
+    font-size: 70%;
+    font-weight: 400;
+}
+.tag-one{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.tag-one h2{
+    font-size: 3vw;
+    width: 30vw;
+    padding-left: 7%;
+    letter-spacing: 2px;
+    padding-top: 13%;
+}
+.tag-one p{
+    font-size: 1.1vw;
+    width: 33%;
+    padding-left: 7%;
+    margin-top: 2%;
+    letter-spacing: 1px;
+}
+.tag-one img{
+    height: 31px;
+}
+.tag-one a{
+    text-decoration: none;
+    padding-left: 7%;
+    padding-top: 5%;
+    color: tomato;
+
+
+}
+.card-tow{
+    background-image: url(../img/images.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card-thri{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-thri img{ 
+    height: 50px;
+}
+.card-thri h1:nth-child(1){
+    padding-left: 10%;
+    font-size: 3.5em;
+    width: 20%;
+}
+.card-thri p{
+    width: 39%;
+    padding-left: 5%;
+    font-size: 1.5em;
+    line-height: 165%;
+
+}
+.card-thri h1:nth-child(3){
+    padding-left: 10%;
+    padding-top: 10%;
+    font-size: 4em;
+    width: 40%;
+    margin-bottom: 15%;
+}
+.card-fir{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 10%;
+}
+.card-fir div{
+    width: 70vh;
+    position: relative;
+
+}
+.card-fir img{
+    height: 35px;
+    position: absolute;
+    left: -70px;    
+    
+}
+.card-fir h3{
+    font-size: 2em;
+    line-height: 160%;
+}
+.card-fir p{
+    width: 72%;
+    margin-bottom: 25%;
+    font-size: 1.5em;
+    line-height: 150%;
+}
+.card-fenf h1:nth-child(1){
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 4%;
+}
+.card-fenf p:nth-child(2){
+    text-align: center;
+    font-size: 1.5em;
+    width: 60%;
+    padding-left: 19%;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+.tag-tow{
+    background-image: url(../img/step01.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: 15%;
+    height: 100vh;
+    display: flex;
+
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 53%;
+}
+.tag-tow h2{
+    font-size: 5em;
+    margin-top: 7%;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    color: #dddddd;
+}
+.tag-tow img{
+    padding-bottom: 5%;
+}
+.tag-tow h1{
+   font-size: 1.5em;
+   padding-bottom: 3.5%;
+}
+
+.tag-tow p{
+    font-size: 1.2em;
+    width: 85%;
+    line-height: 200%;
+    color: #0b0c17;
+}
+.tag-thri{
+    background-image: url(../img/step02.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 13%;
+    
+}
+.tag-thri h2{
+    font-size: 5em;
+    padding-top: 3%;
+    padding-bottom: 4.5%;
+    color: #dddddd;
+}
+.tag-thri img{
+    padding-bottom: 2%;
+}
+.tag-thri h1{
+   font-size: 1.5em;
+   padding-bottom: 1%;
+}
+
+.tag-thri p{
+    font-size: 1.2em;
+    width: 45%;
+    line-height: 200%;
+    color: #0b0c17;
+}
+.tag-for{
+    background-image: url(../img/step03.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: 15%;
+    height: 100vh;
+    display: flex;
+
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 53%;
+}
+.tag-for h2{
+    font-size: 5em;
+    margin-top: 7%;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    color: #dddddd;
+}
+.tag-for img{
+    padding-bottom: 5%;
+}
+.tag-for h1{
+   font-size: 1.5em;
+   padding-bottom: 3.5%;
+}
+
+.tag-for p{
+    font-size: 1.2em;
+    width: 85%;
+    line-height: 200%;
+    color: #0b0c17;
+}
+.tag-fenf{
+    background-image: url(../img/step04.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 13%;
+    padding-bottom: 9%;
+    margin-bottom: 4%;
+    
+}
+.tag-fenf h2{
+    font-size: 5em;
+    padding-top: 10%;
+    padding-bottom: 4.5%;
+    color: #dddddd;
+}
+.tag-fenf img{
+    padding-bottom: 2%;
+}
+.tag-fenf h1{
+   font-size: 1.5em;
+   padding-bottom: 1%;
+}
+
+.tag-fenf p{
+    font-size: 1.2em;
+    width: 45%;
+    line-height: 200%;
+    color: #0b0c17;
+}
+.card-sex{
+    text-align: center;
+    height: 75vh;
+}
+.card-sex h1{
+    font-size: 3.5em;
+    margin-bottom: 3%; 
+}
+.card-sex p{
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: #0b0c17;
+    padding-bottom: 5%;
+}
+input[type=email]{
+    font-size: 1.6em;
+    color: #6b6a6a;
+    padding: 26px 13%;
+    box-shadow: 0px 0px 20px #00000056;
+    margin-bottom: 5%;
+}
+.card-sex a{
+    font-size: 1.5em;
+    background-color: #ff3571;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.4% 8%;
+    border-radius: 7px;
+}
+.card-sex a:hover{
+    background-image: repeating-linear-gradient(to right, rgb(0, 255, 170), rgb(0, 102, 255), rgb(55, 0, 255));
+}
+.card-seven p{
+padding-left: 10%;
+margin-bottom: 1.5%;
+font-size: 1.2em;
+font-weight: 200;
+}
+.card-seven img{
+    height: 25px;
+    padding-left: 1%;
+}
